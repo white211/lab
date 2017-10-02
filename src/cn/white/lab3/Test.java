@@ -7,7 +7,7 @@ public class Test {
 	 .setNextHandler(new CompanyChief());
 	  
 	Application application = new Application();
-	application.setAbilities("PHP,SSM,UI");
+	application.setAbilities("spring,SSM,UI");
 
 	director.select(application);
 }
