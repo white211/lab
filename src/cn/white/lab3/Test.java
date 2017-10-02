@@ -7,7 +7,7 @@ public class Test {
 	 .setNextHandler(new CompanyChief());
 	  
 	Application application = new Application();
-	application.setAbilities("spring,SSM,UI");
+	application.setAbilities("spring,mybatis,vue.js");
 
 	director.select(application);
 }
